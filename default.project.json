@@ -1,0 +1,27 @@
+{
+  "name": "Midnight-Munchies",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "GameMessage": {
+        "$className": "RemoteEvent"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Game": {
+        "$path": "src/server/Game.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "HUD": {
+          "$path": "src/client/HUD.client.lua"
+        }
+      }
+    }
+  }
+}
